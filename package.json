@@ -1,6 +1,6 @@
 {
   "name": "@alexbinary/glob",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple glob with promise support 🎉",
   "keywords": [
     "fs",

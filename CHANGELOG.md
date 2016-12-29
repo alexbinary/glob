@@ -2,6 +2,8 @@
 
 ## upcoming release
 
+## v1.0.1
+
 - scoped package name
 - add GitHub, NPM & David (DM) badges
 - configure Travis (CI) with automated deploy to NPM
