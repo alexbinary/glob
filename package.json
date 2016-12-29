@@ -1,24 +1,36 @@
 {
-  "name": "alexbinary.glob",
-  "description": "Promisified version of glob 🙀",
+  "name": "@alexbinary/glob",
   "version": "1.0.0",
+  "description": "Simple glob with promise support 🎉",
+  "keywords": [
+    "fs",
+    "glob",
+    "file",
+    "path",
+    "match"
+  ],
+  "homepage": "https://github.com/alexbinary/glob#readme",
+  "bugs": {
+    "url": "https://github.com/alexbinary/glob/issues",
+    "email": "alexandre@bintz.io"
+  },
+  "license": "MIT",
+  "author": "Alexandre Bintz <alexandre@bintz.io>",
   "main": "src/index.js",
   "repository": "https://github.com/alexbinary/glob.git",
-  "author": "Alexandre Bintz <alexandre@bintz.io>",
-  "license": "MIT",
   "scripts": {
     "test": "istanbul cover _mocha",
-    "testw": "mocha -w"
+    "testw": "mocha -w",
+    "prepublish": "mocha"
+  },
+  "dependencies": {
+    "@alexbinary/promisify": "^3.0.4",
+    "glob": "^7.1.1"
   },
   "devDependencies": {
-    "alexbinary.file-exists": "https://github.com/alexbinary/file-exists.git",
     "alexbinary.fs-sandbox": "https://github.com/alexbinary/fs-sandbox.git",
     "chai": "^3.5.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "alexbinary.promisify": "https://github.com/alexbinary/promisify.git",
-    "glob": "^7.1.1"
   }
 }
